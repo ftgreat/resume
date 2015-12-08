@@ -1,0 +1,178 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+\usepackage{xunicode, xltxtra}
+\XeTeXlinebreaklocale "zh"
+\widowpenalty=10000
+
+%\setmainfont[Mapping=tex-text]{文泉驿正黑}
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{CJKutf8}
+  
+% adjust the page margins ,设置页面边距
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+\setmainfont[Mapping=tex-text]{Hiragino Sans GB}
+\setsansfont[Mapping=tex-text]{Hiragino Sans GB}
+\CJKtilde
+
+% personal data
+\firstname{宋伟}
+\familyname{}
+\title{}               % optional, remove the line if not wanted
+
+\mobile{18810332274}                    % optional, remove the line if not wanted
+\email{ningyuwhut@gmail.com}                      % optional, remove the line if not wanted
+%% \quote{\small{``Do what you fear, and the death of fear is certain.''\\-- Anthony Robbins}}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\maketitle
+
+\section{教育}
+\cventry{2011至2014}{硕士}{北京航空航天大学计算机学院，导师：郎波}{}{}{}
+\cventry{2007--2011}{本科}{武汉理工大学计算机学院}{}{}{}  
+
+\section{工作经历}
+\cventry{2014.04-至今}{搜狗营销事业部pc搜索广告研发组}{副研究员}{客户优化相关的算法研究}{}{}
+%\cventry{2011}{EMC 上海研究院}{}{}{}{关于共享虚拟化平台上 I/O 旁路攻击的研究。}
+
+%\section{社区}
+%\cventry{Blog}{\url{blog.yxwang.me}}{技术博客}{}{}{}
+%\cventry{StackOverflow}{\url{stackoverflow.com/users/111896/zellux}}{总排名前 4\%}{}{}{}
+%\cventry{GitHub}{\url{github.com/zellux}}{参与和创建过多个开源项目}{}{}{}
+
+\section{项目经历}
+\renewcommand{\baselinestretch}{1.2}
+\cventry{2015.06--2015.09}
+{零星广告识别算法优化}
+{python，shell}
+{}{}
+{优化已有的零星广告流程，一期主要优化时间和空间性能，流程时间由16h降低至8h。二期优化算法的准确率和召回率，在尝试过gbdt和两种不平衡算法后，算法的召回率在60\%，准确率在30\%。}
+
+\vspace*{0.2\baselineskip}
+\cventry{2015.01--2015.06}
+{印第安纳琼斯数据需求平台}
+{python}
+{}{}
+{自动化完成产品经理的数据需求。前端将请求解析成配置文件，后端获取后在hadoop集群上处理并生成结果文件，最后在本地合并后发送给收件人。平台可以承担组内产品经理90\%的数据需求。}
+
+\vspace*{0.2\baselineskip}
+\cventry{2014.04--2014.09}
+{创意推荐流程的优化}
+{python，shell}
+{}{}
+{接手创意推荐系统，优化该系统的效率，通过文本去重将创意库缩小30\%。并在该系统基础上实现一个简化版本加入到客户优化工具箱中。}
+
+\vspace*{0.2\baselineskip}
+\cventry{2013--2014}
+{基于多模态PLSA的图像检索算法的研究与实现}
+{Java，JSP}
+{毕设}{}
+{将传统的PLSA算法从单模态扩展到多模态，即同时通过文本和图像内容（两种模态）进行检索。实验结果表明,多模态的PLSA算法 可以有效提高检索准确度。}
+
+%\vspace*{0.2\baselineskip}
+%\cventry{2010}
+%{ForceField}
+%{Python, ANTLR}
+%{独立项目}{}
+%{设计了~ForceField~函数式语言，并借助~Python~和~ANTLR~为它实现了一个简单的解释器。为了更好的调试~ForceField~脚本，我们还开发了一个在线的调试工具，开发者可以利用它在网页上进行单步跟踪或者查看局部变量等操作。这个项目让我们获得了~2011~年盛大``校园牛人''创新技术大赛一等奖。}
+%
+%\vspace*{0.2\baselineskip}
+%\cventry{2010}
+%{AppFlight for Android}
+%{Android 应用}
+%{创业项目}{}
+%{根据用户在网页~CMS~上定制的内容，生成一个显示这些内容的~Android~应用。}
+%
+%\vspace*{0.2\baselineskip}
+%\cventry{2009}
+%{Nexus}
+%{C, 汇编}
+%{独立项目}{}
+%{基于~MIT 6.828~课程的~lab，实现了一个类似~exokernel~的微内核，包括多任务调度、文件系统、网络传输等基本功能。}
+%
+%\vspace*{0.2\baselineskip}
+%\cventry{2009}
+%{阅读进度记录}
+%{Python, Django, Google App Engine}
+%{独立项目}{}
+%{记录用户阅读进度的~Web~应用，可以与豆瓣同步阅读列表。}
+%
+%\vspace*{0.2\baselineskip}
+%\cventry{2008}
+%{Koprulu}
+%{C, 汇编}
+%{课程项目}{}
+%{
+%基于~CMU~15-410~课程~lab~，实现了一个类似~Linux~的支持多任务调度的操作系统。
+%}
+%
+%\vspace*{0.2\baselineskip}
+%\cventry{2008}
+%{绩点计算器}
+%{Python, wxWidgets}
+%{独立项目}{}
+%{一个抓取学校查分系统网页，解析课程成绩数据，并计算各类绩点的应用，发布的第一年里下载量超过了~6000~份。}
+
+%% \cventry{2010至今}{Danimos}{C, 汇编}{}{}{通过虚拟化技术保护在不可信的操作系统中运行的浏览器}
+%% \cventry{2008}{GPGPU平台和优化}{C++, CTM IL}{}{}{高性能通用显卡计算与平台特性的研究，曦源研究项目}
+
+%% \subsection{课程项目}
+%% \cventry{2008}{分布式IRC服务器}{C}{}{}{}
+%% \cventry{2008}{Tiger语言编译器}{C, Flex, Bison}{}{}{包括词法、语法分析，后端代码生成等}
+
+%% \subsection{其他项目}
+%% \cventry{2008}{Koprulu}{C, 汇编}{}{}{简单的类Linux多任务操作系统内核，基于CMU 15-410课程的lab}
+%% \cventry{2008}{长征社区捐助管理系统}{Java, JSP}{}{}{基于Web的捐助管理系统}
+%% \cventry{2007}{协作式多客户端在线绘图系统}{Java, RMI}{}{}{}
+%% \cventry{2007}{复旦大学火车订票系统}{Java, JSP}{}{}{大一初学Web后接的外包}
+
+\renewcommand{\baselinestretch}{1.0}
+
+%\section{发表论文}
+%\cventry{2012}
+%{\textbf{Yuanxuan Wang}\textnormal{, Jincheng Han, Haibo Chen, Binyu Zang}}
+%{ReDroid: Fast Malware Recovery on Smartphones with Intertwined Replay}{In IPADS Technique Report}
+%{}{}{}
+%
+%\cventry{2011}
+%{\textnormal{Xiang Song, Haibo Chen, Rong Chen, }Yuanxuan Wang\textnormal{, Binyu Zang}}
+%{A Case for Scaling Applications to Many-core Platforms with OS Clustering}{In 2011 ACM SIGOPS European Conference on Computer Systems (Eurosys'2011) }
+%{}{}{}
+
+%% \section{助教经验}
+%% \cventry{2011}{计算机系统工程}{}{}{}{}
+%% \cventry{2009,2010}{操作系统}{}{}{}{}
+
+%\section{奖项}
+%\cventry{2012}{摩根士丹利暑期实习生团队项目最具创意奖}{}{}{}{}
+%\cventry{2010}{SAP~大学联盟仪表盘设计大赛一等奖}{}{}{}{}
+%\cventry{2010}{盛大``校园牛人''创新技术大赛一等奖}{}{}{}{}
+%\cventry{2010}{研究生入学一等奖学金}{}{}{}{}
+%%% \cventry{2009}{人民奖学金三等奖}{}{}{}{}
+%%% \cventry{2007, 2008}{人民奖学金二等奖}{}{}{}{}
+%\cventry{2007}{张江杯~DotA~比赛冠军}{}{}{}{}
+%\cventry{2006, 2008}{复旦大学电子竞技大赛星际项目亚军}{}{}{}{}
+%%% \cventry{2006}{首届``华夏通信杯''程序设计赛三等奖}{}{}{}{}
+%\cventry{2005, 2004}{全国青少年信息学（计算机）奥林匹克分区联赛一等奖}{}{}{}{}
+
+\section{技能}
+\cventry{语言}{熟练使用python,shell,awk，熟悉java和c++}{}{}{}{}
+\cventry{机器学习}{熟悉常用的机器学习算法（LR、SVM、GBDT等tree-based model、主题模型等算法，实现过一些常用的机器学习算法。}{}{}{}{}
+%% \cventry{应用开发}{Ruby on Rails, iOS}{}{}{}{}
+%\cventry{游戏}{星际争霸2（国服、东南亚服大师组）}{}{}{}{}
+\cventry{英语}{CET-6 575 }{流利的英语读写能力}{}{}{}
+
+% \cvline{Photography}{\small Digital photography is my newest hobby.}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}
