@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.12.3)  8 DEC 2015 08:41
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.12.3)  9 DEC 2015 07:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -964,12 +964,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]\EU1/HiraginoSansGB(0)/m/n/10 自动化完成产品经理的数据需求。前端将请求解析成配置文件，后端获取后在hadoop集
+[]\EU1/HiraginoSansGB(0)/m/n/10 自动化完成产品经理的数据需求。前端将请求解析成配置文件，后端获取配置文件，并在
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
-\EU1/HiraginoSansGB(0)/m/n/10 群上处理并生成结果文件，最后在本地合并后发送给收件人。平台可以承担组内产品经理
+\EU1/HiraginoSansGB(0)/m/n/10 hadoop集群上处理并生成结果文件，最后在本地合并后发送结果邮件。上线后平台可以
  []
 
 
